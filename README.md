@@ -30,6 +30,18 @@ answer = chatbot.ask_question("What is the capital of France?")
 print(answer)  # Outputs: "The capital of France is Paris."
 ```
 
+### Running the Chatbot:
+To run the chatbot using Streamlit, follow these steps:
+1. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+2. Start the Streamlit application:
+    ```sh
+    streamlit run main.py
+    ```
+```
+
 ### Note:
 - Ensure that the knowledge base is regularly updated to maintain the accuracy and relevance of the answers.
 - The performance of the chatbot may vary based on the quality and comprehensiveness of the knowledge base.
