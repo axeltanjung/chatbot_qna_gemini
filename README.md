@@ -17,18 +17,6 @@ This module implements a chatbot for question and answer (Q&A) functionality usi
 - Requires the Gemini model and associated libraries for natural language processing and generation.
 - A knowledge base or document repository for the retrieval component.
 
-### Example:
-```python
-from chatbot_rag_gemini import ChatbotRAGGemini
-
-config = {
-    # Configuration parameters
-}
-
-chatbot = ChatbotRAGGemini(config)
-answer = chatbot.ask_question("What is the capital of France?")
-print(answer)  # Outputs: "The capital of France is Paris."
-```
 
 ### Running the Chatbot:
 To run the chatbot using Streamlit, follow these steps:
